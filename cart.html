@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">ABA</a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <main class="cart-section">
+        <h1>Your Cart</h1>
+        <p>Review the items in your cart before proceeding to checkout.</p>
+
+        <div class="cart-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="item-info">
+                                <img src="images/webimage.jpg" alt="Product 1">
+                                <span>Web Development Course</span>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$299</td>
+                        <td class="item-total">$299</td>
+                        <td>
+                            <button class="remove-btn">Remove</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item-info">
+                                <img src="images/cyperimage.jpg" alt="Product 2">
+                                <span>Cyber Security Course</span>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$249</td>
+                        <td class="item-total">$249</td>
+                        <td>
+                            <button class="remove-btn">Remove</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item-info">
+                                <img src="images/seoimage.jpg" alt="Product 3">
+                                <span>SEO Optimization</span>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$199</td>
+                        <td class="item-total">$199</td>
+                        <td>
+                            <button class="remove-btn">Remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="cart-summary">
+                <h3>Cart Summary</h3>
+                <div class="summary-detail">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$747</span>
+                </div>
+                <div class="summary-detail">
+                    <span>Shipping:</span>
+                    <span>$120</span>
+                </div>
+                <div class="summary-detail total">
+                    <span>Total:</span>
+                    <span id="total">$627</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">ABA</a>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="products.html">Products</a>
+                <a href="index.html">Home</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 ABA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

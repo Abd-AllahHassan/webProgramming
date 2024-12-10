@@ -1,0 +1,95 @@
+/* Product Details General Reset */
+
+body{
+    background: linear-gradient(135deg, #1e3f0f, rgb(41, 23, 88));
+}
+.product-details {
+    margin: 68px auto;
+    padding: 20px 100px;
+    background:linear-gradient(135deg, #749b63, rgb(82, 67, 122));
+    border-bottom: 1px solid #ccc;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.product-info h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #333333;
+}
+
+.product-info p {
+    color: #333333;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.product-info ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+/* Buttons */
+.course-buttons {
+    margin-top: 15px;
+}
+
+.course-buttons button {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.enroll-btn {
+    background-color: #007bff;
+}
+
+.cart-btn {
+    background-color: #28a745;
+}
+
+.course-buttons button:hover {
+    opacity: 0.8;
+}
+
+/* Review Section */
+.reviews {
+    padding: 20px;
+}
+
+.reviews h2{
+    color: #ffff;
+}
+
+.review-container {
+    margin-top: 10px;
+}
+
+.review {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}

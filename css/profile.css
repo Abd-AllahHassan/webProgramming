@@ -93,6 +93,6 @@ body {
     background-color: #3c8819;
 }
 
-/* footer{
-    margin-top: 160px;
-} */
+footer{
+ width: 100%;
+}

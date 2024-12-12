@@ -75,14 +75,14 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    padding: 0 200px;
+    padding: 0 150px;
 }
 
 .product-card {
     background-color: #c7c4c4;
     border: 1px solid #ddd;
     border-radius: 10px;
-    width: 35%; /* Two cards per row */
+    width: 30%; /* Two cards per row */
     height: 320px;
     padding: 15px;
     text-align: center;
